@@ -20,3 +20,57 @@ a {
     color: white;
     text-decoration: none;
 }
+
+/* preset*/
+:root {
+    --primary: #00defc;
+    --secondy: #fffffff1;
+    --tertiary: #000356;
+}
+
+/* Header */
+header{
+    margin: 0 20px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px red solid;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul a {
+    font-size: 1.2em;
+    padding: 20px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+nav ul a:hover {
+    color: azure;
+    border-bottom: 1px solid azure;
+    transition: 0.3s ease-in-out;
+}
+
+.button {
+    cursor: pointer;
+    font-size: 1.1em;
+    border: none;
+    outline: none;
+    color: var(--tertiary);
+    background-color: var(--primary);
+    padding: 16px 30px;
+}
+
+.button:hover {
+    background-color: var(--secondy);
+    transition: 0.3s ease-in-out;
+}
