@@ -9,7 +9,7 @@
 /* Reset */
 
 body {
-    height: 300vh;
+    height: 600vh;
     background-color: black;
 }
 
@@ -88,7 +88,6 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
     background-image: url("/assets/imgs/background/bg1.jpg");
     background-position: center;
     background-size: cover;
@@ -165,10 +164,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 100vh;
+   
 }
 
 .div-about {
@@ -189,15 +188,14 @@ main {
 
 /* section */
 
-section {
-    margin-top: 30px;
+.services {
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 100%;
 }
 
 .services-about .title-2{
@@ -220,5 +218,37 @@ section {
   }
 
   .box img {
+    margin-top: 30px;
+  }
+
+  /* CTA */
+  .cta {
+    text-align: center;
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .cta-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00242a;
+  }
+
+  .cta-content .title {
+    width: 100%;
+    font-size: 2.8em;
+  }
+
+  .cta-content p {
+    margin-top: 10px;
+    width: 60%;
+  }
+
+  .cta-content .button {
     margin-top: 30px;
   }
