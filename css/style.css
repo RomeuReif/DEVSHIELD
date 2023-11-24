@@ -9,7 +9,7 @@
 /* Reset */
 
 body {
-    height: 600vh;
+    height: 100%;
     background-color: black;
 }
 
@@ -326,4 +326,30 @@ main {
 
 .contact-form textarea::placeholder {
     color: var(--primary);
+}
+
+/* Footer */
+footer {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000813;
+    height: 400px;
+    width: 100%;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.center {
+    margin-top: 30px;
+    text-align: center;
 }
